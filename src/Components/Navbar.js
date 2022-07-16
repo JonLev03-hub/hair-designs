@@ -27,7 +27,7 @@ export default function Navbar(props) {
       color: rgb(130, 108, 108);
     }
     border-bottom: ${(props) =>
-      props.value == current ? "1px solid rgb(130, 108, 108)" : "none"};
+      props.value === current ? "1px solid rgb(130, 108, 108)" : "none"};
   `;
   return (
     <Container>
