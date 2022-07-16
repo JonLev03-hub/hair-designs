@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import Navbar from "../Components/Navbar";
+import Media from "../Components/Media";
+import Footer from "../Components/Footer";
 export default function Home(props) {
   const Main = styled.main`
     width: 80vw;
     margin: 0 auto;
-    height: 1000px;
   `;
   const ContainerHorizontal = styled.div`
     display: flex;
@@ -141,8 +142,10 @@ export default function Home(props) {
           <Map />
         </ContainerHorizontal>
         <H3 align="left">SOCIAL</H3>
+        <Media />
         <H3 align="left">PHOTO GALLERY</H3>
       </Main>
+      <Footer />
     </>
   );
 }
