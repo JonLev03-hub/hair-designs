@@ -21,7 +21,7 @@ export default function Footer(props) {
       <Span>
         Copyright © 2020 West 86th Hair Designs - All Rights Reserved.
       </Span>
-      <Span>Powered by Abstract Student Designing</Span>
+      <Span>Powered by Abstract Student Solutions</Span>
     </Footer>
   );
 }

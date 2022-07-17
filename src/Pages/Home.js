@@ -64,10 +64,10 @@ export default function Home(props) {
     flex-direction: column;
     justify-content: space-between;
     padding: 6vh 4vw;
-    width: 29.5vw;
+    width: 32vw;
   `;
   const Map = styled.div`
-    width: 37.5vw;
+    width: 40vw;
     background-color: red;
     flex-shink: 0;
     flex-grow: 0;
